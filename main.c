@@ -15,12 +15,10 @@
 static int	ft_check_map_extension(char *argv)
 {
 	int		i;
-	int		j;
 	int		k;
 	char	*name_extension;
 
 	i = ft_strlen(argv) - 4;
-	j = 0;
 	k = 0;
 	name_extension = ".ber";
 	while (argv[i] == name_extension[k])
